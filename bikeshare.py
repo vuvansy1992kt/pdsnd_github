@@ -188,6 +188,7 @@ def preview_data(df):
             break
            
 def main():
+    """The main function of project."""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
